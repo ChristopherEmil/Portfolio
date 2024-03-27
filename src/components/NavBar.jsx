@@ -8,9 +8,10 @@ import Navbar from "react-bootstrap/Navbar";
 import { useState, useEffect } from "react";
 import { useContext } from "react";
 import logo from "../assets/img/logo.png";
+import pdfcv from "../assets/pdf/CV_Christopher_Emil.pdf"
 function NavBar() {
 
-  const { texts, handleLanguage } = useContext(LanguageContext);
+  const { texts } = useContext(LanguageContext);
   const [activeLink, setActiveLink] = useState("home");
   const [scolled, seScrolled] = useState("false");
 console.log(texts)
@@ -87,7 +88,7 @@ console.log(texts)
             
             </div>
             <button className="vvd" onClick={() => {
-               const pdfUrl = '../assets/pdf/CV_Christopher_Emil.pdf';
+               const pdfUrl = pdfcv;
 
                // Crea un enlace temporal y simula un clic para iniciar la descarga
                const a = document.createElement('a');

@@ -3,6 +3,7 @@ import projImg1 from "../assets/img/project-img1.png";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
 import colorSharp from '../assets/img/color-sharp2.png'
+import educamaria from '../assets/img/educamariaimg.png'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 import LanguageContext from "../context/LanguageContext";
@@ -14,7 +15,7 @@ const Projects = () => {
     {
       title: "EducaMaria",
       description: "Design & Development",
-      imgUrl: "../assets/img/educamariaimg.png",
+      imgUrl: educamaria,
       type:"pages",
       linkpage:"https://educamaria.es/"
     },
@@ -27,8 +28,8 @@ const Projects = () => {
     },
     {
       title: "Full Stack CRUD Pages",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      description: "Full Stack project created with NODE, React and MONGODB.",
+      imgUrl: "https://miro.medium.com/v2/resize:fit:1200/1*mzMIXN2JodV2taEBzmUKLg.png",
       type:"practices"
     },
     {
@@ -39,7 +40,7 @@ const Projects = () => {
       link:"https://github.com/ChristopherEmil/PluginBBDD"
     },
     {
-      title: "Discord BOT",
+      title: "Discord BOT 🤖",
       description: "Discord bot programmed with Node js",
       imgUrl: "https://externlabs.com/blogs/wp-content/uploads/2023/04/discord-bot-1.jpg",
       type:"hobbies",

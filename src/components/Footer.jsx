@@ -10,6 +10,8 @@ import { BsGithub } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs"; 
 import { useContext } from "react";
 import LanguageContext from "../context/LanguageContext";
+import españa from '../assets/svg/es.svg'
+import reinouni from '../assets/svg/gb.svg'
 
 const Footer = () => {
   const { texts, handleLanguage } = useContext(LanguageContext);
@@ -50,8 +52,8 @@ const Footer = () => {
             
               <h5>{texts.Footer.title_3}</h5>
               <div className="vvd_footer">
-              <button  onClick={handleLanguage}><span><img src={"../assets/svg/es.svg"} alt="es" /></span></button>
-            <button  onClick={handleLanguage}><span><img src={"../assets/svg/gb.svg"} alt="en" /></span></button>
+              <button  onClick={handleLanguage}><span><img src={españa} alt="es" /></span></button>
+            <button  onClick={handleLanguage}><span><img src={reinouni} alt="en" /></span></button>
              
               
            </div>
