@@ -87,7 +87,7 @@ console.log(texts)
             
             </div>
             <button className="vvd" onClick={() => {
-               const pdfUrl = '/src/assets/pdf/CV_Christopher_Emil.pdf';
+               const pdfUrl = '../assets/pdf/CV_Christopher_Emil.pdf';
 
                // Crea un enlace temporal y simula un clic para iniciar la descarga
                const a = document.createElement('a');

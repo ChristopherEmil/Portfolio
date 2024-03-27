@@ -50,8 +50,8 @@ const Footer = () => {
             
               <h5>{texts.Footer.title_3}</h5>
               <div className="vvd_footer">
-              <button  onClick={handleLanguage}><span><img src={"/src/assets/svg/es.svg"} alt="es" /></span></button>
-            <button  onClick={handleLanguage}><span><img src={"/src/assets/svg/gb.svg"} alt="en" /></span></button>
+              <button  onClick={handleLanguage}><span><img src={"../assets/svg/es.svg"} alt="es" /></span></button>
+            <button  onClick={handleLanguage}><span><img src={"../assets/svg/gb.svg"} alt="en" /></span></button>
              
               
            </div>

@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: "EducaMaria",
       description: "Design & Development",
-      imgUrl: "/src/assets/img/educamariaimg.png",
+      imgUrl: "../assets/img/educamariaimg.png",
       type:"pages",
       linkpage:"https://educamaria.es/"
     },
